@@ -1,0 +1,53 @@
+.center {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.center > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+button {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.change {
+    text-align: end;
+}
+
+.error {
+    color: red;
+}
+
+.bor {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reg {
+    display: none;
+}
+
+.login {
+    display: block;
+}
