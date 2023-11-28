@@ -10,5 +10,3 @@
     include_once ("views/user_data.php");
     }
 ?>
-
-<!-- изменения в git (2) -->
